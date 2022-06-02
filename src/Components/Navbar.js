@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll';
-import { AttentionSeeker } from 'react-awesome-reveal'
+import { AttentionSeeker } from 'react-awesome-reveal';
+import image from './logo512.png'
 function Navbar() {
   const [Nav, setNav] = useState(false)
   return (
@@ -19,7 +20,9 @@ function Navbar() {
         <Link smooth={true} to='Contact'>
           <li className='m-6  text-[19px] cursor-pointer hidden md:block font-bold '>Contact</li>
         </Link>
-        <li className='mr-6 text-[19px] cursor-pointer hidden md:block  text-[white] active:bg-orange-800 w-40 p-1 rounded text-center bg-[#EC0B0B]  '><button>Resume</button></li>
+        <a href={image} download={image}>
+          <li className='mr-6 text-[19px] cursor-pointer hidden md:block  text-[white] active:bg-orange-800 w-40 p-1 rounded text-center bg-[#EC0B0B]  '><button>Resume</button></li>
+        </a>
       </div>
       <div onClick={() => setNav(true)} className='mr-6 md:hidden cursor-pointer relative'>
         <div className='w-6 h-0.5 bg-[#EC0B0B] m-1 '></div>

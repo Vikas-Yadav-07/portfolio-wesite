@@ -2,25 +2,34 @@ import React from 'react'
 
 function TechStacks() {
   return (
-    <div  className=' h-screen flex flex-col xl:flex-row items-center justify-center text-center bg-[#0B0B15]'>
-        <div className='mr-48 flex items-center justify-center flex-col mx-48'>
-            <h1 className=' text-[40px] mb-20 md:mb-0 xl:text-[80px] heroHeader text-center  items-center text-[#EC0B0B]'>Tech Stacks</h1>
-            <img src="/images/Online world-amico.png" className='w-96 hidden md:block' alt="" />
+    <div id='Skills' className=' h-screen flex flex-col xl:flex-row items-center justify-center text-center bg-[#0B0B15]'>
+      <div className='mt-40 flex items-center justify-center flex-col md:ml-20 text-center'>
+        <h1 className=' text-[40px] md:mb-0 xl:text-[60px] logo text-center  items-center text-[#EC0B0B]'>Tech Stacks</h1>
+        <img src="/images/Online world-amico.png" className='w-96  hidden xl:block' alt="" />
+      </div>
+      <div className='flex  w-full mb-40 md:mb-0 h-full flex-col items-center justify-center '>
+
+      <div className='core w-1/2  p-3 m-2 '>
+        <h1 className='logo text-[#EC0B0B] text-2xl'>Core</h1>
+        <div className='flex flex-row p-3 items-center justify-center'>
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/html5.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/css3.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/javascript.png" alt="" />
         </div>
-        <div className='flex flex-wrap w-80 md:w-96 items-center justify-center' >
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/html5.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/css3.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/javascript.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/npm.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/react-js.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/redux.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/git.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/github.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/tailwind-css.png" alt="" />
-            <img className='w-11 xl:w-24 shadow-2xl animate-bounce translate-x-1 p-1 xl:p-4 bg-slate-100 cursor-pointer relative  hover:bg-slate-900  transition m-2 md:m-4 rounded-md 'src="/techicons/python.png" alt="" />
-   
+      </div>
+      <div className='Libraries w-1/2 h-1/3 flex items-center flex-col justify-center  p-3 m-2  '>
+         <h1 className='logo text-[#EC0B0B] text-center  text-2xl'>Libraries / Technologies</h1>
+         <div className='flex flex-row flex-wrap w-80  h-1/2 p-3 items-center justify-center'>
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/react-js.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/redux.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/tailwind-css.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/git.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/github.png" alt="" />
+          <img className='w-20 bg-white m-2 p-1 rounded shadow-inner ' src="/techicons/npm.png" alt="" />
+
         </div>
-         
+      </div>
+      </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 function TechStacks() {
   return (
     <div id='Skills' className=' h-screen flex flex-col xl:flex-row items-center justify-center text-center bg-[#0B0B15]'>
-      <div className='mt-40 flex items-center justify-center flex-col md:ml-20 text-center'>
+      <div className='mt-40 flex items-center justify-center flex-col md:ml-0 xl:ml-20 text-center'>
         <h1 className=' text-[40px] md:mb-0 xl:text-[60px] logo text-center  items-center text-[#EC0B0B]'>Tech Stacks</h1>
         <img src="/images/Online world-amico.png" className='w-96  hidden xl:block' alt="" />
       </div>

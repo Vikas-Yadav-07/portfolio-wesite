@@ -22,8 +22,8 @@ function About() {
             
         </div>
         <div className="fixed text-white right-0 top-1/2 ">
-          <div className="Github bg-gray-900 translate-x-20 hover:translate-x-0 transition cursor-pointer p-3 my-4"><i className="fa-brands w-10 text-center  fa-github"></i> Github</div>
-          <div className="linkedin bg-blue-900 translate-x-20 hover:translate-x-0 transition cursor-pointer p-3 my-4"><i className="fa-brands w-10 text-center   fa-linkedin"></i> LinkedIn</div>
+         <a href='https://github.com/Vikas-Yadav-07' target={'_blank'}><div className="Github bg-gray-900 translate-x-20 hover:translate-x-0 transition cursor-pointer p-3 my-4"><i className="fa-brands w-10 text-center  fa-github"></i> Github</div></a> 
+         <a href='https://www.linkedin.com/in/vikas-yadav-786519216/' target={'_blank'}> <div className="linkedin bg-blue-900 translate-x-20 hover:translate-x-0 transition cursor-pointer p-3 my-4"><i className="fa-brands w-10 text-center   fa-linkedin"></i> LinkedIn</div></a>
         </div>
       
         

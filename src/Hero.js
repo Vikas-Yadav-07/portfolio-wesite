@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div id='home' className='h-screen flex flex-col xl:flex-row items-center justify-start overflow-hidden bg-[#0B0B15]'>
+    <div id='home' className='h-screen snap-start flex flex-col xl:flex-row items-center justify-start overflow-hidden bg-[#0B0B15]'>
         <img src="/images/Programming-amico.png" className='w-56 mt-20 xl:w-96 xl:ml-40' alt="" />
         <div className='text-white flex items-center flex-col xl:block  xl:ml-20 '>
             <p className='text-[25px] heroText ' >my name is <span className='text-[#EC0B0B]'>Vikas</span> i am a </p>

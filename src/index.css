@@ -22,3 +22,11 @@
 {
     font-family: 'Shadows Into Light Two', cursive;
 }
+
+
+.App
+{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y:scroll ;
+}

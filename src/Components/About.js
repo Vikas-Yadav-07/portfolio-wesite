@@ -3,7 +3,7 @@ import { Fade ,Reveal, Slide } from "react-awesome-reveal";
 
 function About() {
   return (
-    <div id='About' className='h-screen relative overflow-hidden'>
+    <div id='About' className='h-screen snap-start relative overflow-hidden'>
       <img src="/images/Alone-pana.png"  className='w-full absolute  left-0 right-0 -bottom-1/2 object-cover h-full' alt="" />
         <div className='flex justify-center text-center items-center flex-col w-full h-full'>
             <h1 className='text-4xl  logo border-b shadow-inherit  text-[#EC0B0B]  '>About Me</h1>

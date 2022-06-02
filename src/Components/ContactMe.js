@@ -43,7 +43,7 @@ function ContactMe() {
     };
 
     return (
-        <div id='Contact' className='bg-[#0B0B15] h-screen flex flex-col justify-center items-center text-white'>
+        <div id='Contact' className=' snap-start bg-[#0B0B15] h-screen flex flex-col justify-center items-center text-white'>
             <h1 className='logo text-3xl p-2 mb-5 text-[#EC0B0B]'>Contact Me</h1>
             <div className="contact">
                 <p className='bg-gray-900 m-2 p-2 rounded-r-md '>geekyvikas240052@gmai.com</p>

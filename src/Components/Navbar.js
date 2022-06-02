@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll';
 import { AttentionSeeker } from 'react-awesome-reveal';
-import image from './logo512.png'
+import Resume from './VikasResume.pdf'
 function Navbar() {
   const [Nav, setNav] = useState(false)
   return (
@@ -22,7 +22,7 @@ function Navbar() {
         <Link smooth={true} to='Contact'>
           <li className='m-6  text-[19px] cursor-pointer hidden md:block font-bold '>Contact</li>
         </Link>
-        <a href={image} download={image}>
+        <a href={Resume} download={Resume}>
           <li className='mr-6 text-[19px] cursor-pointer hidden md:block  text-[white] active:bg-orange-800 w-40 p-1 rounded text-center bg-[#EC0B0B]  '><button>Resume</button></li>
         </a>
       </div>
@@ -45,9 +45,13 @@ function Navbar() {
         <Link smooth={true} to='Contact'>
           <li onClick={() => setNav(false)} className='m-3 p-4 cursor-pointer text-white transition-all NavMenus font-itelic hover:text-[#EC0B0B]'>Contact</li>
         </Link>
+        <a href={Resume} download={Resume}>
+          <button onClick={() => setNav(false)} className='m-6 p-2 cursor-pointer text-white transition-all NavMenus bg-[#EC0B0B] font-itelic hover:text-[#EC0B0B]'>Resume</button>
+        </a>
 
 
-        <AttentionSeeker><p onClick={() => setNav(false)} className='absolute right-3 cursor-pointer hover:shadow-white w-20 top-3'>❌</p></AttentionSeeker>
+
+        <AttentionSeeker><p onClick={() => setNav(false)} className=' mt-5 right-3 cursor-pointer hover:shadow-white w-20 top-3'>❌</p></AttentionSeeker>
       </div>
     </div>
   )

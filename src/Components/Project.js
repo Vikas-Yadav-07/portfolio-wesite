@@ -3,7 +3,7 @@ import React from 'react'
 function Project(props) {
   const { title , discription ,tech ,link , github , img } = props
   return (
-    <div className='h-screen flex items-center justify-center flex-col sm:flex-row   bg-[#0B0B15]'>
+    <div className='h-screen flex items-center snap-start justify-center flex-col sm:flex-row   bg-[#0B0B15]'>
       
         <img src={img} className='w-3/4 sm:w-1/2 sm:p-4' alt="" />
         <div className='text-white flex justify-center flex-col items-center mt-10 sm:ml-4 sm:mt-0 xl:ml-20'>

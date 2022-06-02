@@ -4,7 +4,7 @@ import Project from './Project'
 
 function Projects() {
   return (
-    <div id='Portfolio' className='snap-start'>
+    <div id='Portfolio' >
    
         <Project 
         title = {'Pixel Movies'}
